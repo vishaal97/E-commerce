@@ -1,0 +1,45 @@
+<html>
+<head>
+<style>
+input[type=button]{
+width:250;
+background-color:skyblue;
+padding:15px 20px;
+margin:8px 10px;
+border:1px;
+border-radius:5px;
+}
+input[type=button]:hover{
+background-color:red;
+}
+div{
+text-align:center;
+border-radius:5px;
+background-color:violet;
+padding:165px;
+}
+table,th,td{
+border:1px solid black;
+text-align:center;
+}
+</style>
+<script>
+function validate()
+{
+var username=document.forms["myloginform"]["username"].value;
+var password=document.forms["myloginform"]["password"].value;
+console.log(username)
+console.log(password)
+}
+</script>
+</head>
+<body>
+<form name='myloginform'>
+enter username
+<input type='text'name='username'/><br>
+Enter password
+<input type='password'name='password'/><br>
+<input type='button'value='login'onclick='validate()'/>
+</form>
+</body>
+</html>

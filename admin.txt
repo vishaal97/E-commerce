@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<base href="E:\HTML5\pictures\">
+<title>ADMIN PAGE</title>
+<style>
+input[type=button]{
+width:250;
+background-color:skyblue;
+padding:15px 20px;
+margin:8px 10px;
+border:1px;
+border-radius:5px;
+}
+input[type=button]:hover{
+background-color:red;
+}
+div{
+text-align:center;
+border-radius:5px;
+background-color:violet;
+padding:165px;
+}
+table,th,td{
+border:1px solid black;
+text-align:center;
+}
+</style>
+</head>
+<body>
+<table><div><h1>ADMIN</h1>
+<form action='#'name='myform'>
+<a href="product.html"><input type='button'value='product'/></a>
+<a href="category.html"><input type='button'value='category'/></a>
+<a href="suppliername.html"><input type='button'value='supplier'/></a>
+</form>
+</div>
+</table>
+</body>
+</html>
+
+
